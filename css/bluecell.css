@@ -1,0 +1,65 @@
+h3{
+    text-align: center;
+}
+
+.form_success{
+    border: 2px solid green;
+    color: green;
+    width: 65%;
+    text-align: center;
+    margin: 15px auto;
+    display: none;
+}
+
+
+#contactForm{
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+#contactForm label{
+    display: block;
+}
+
+#contactForm input{
+    width: 60%;
+    height: 1.5em;
+}
+
+#contactForm textarea{
+    width: 60%;
+    height: 8em;
+    float: left;
+    margin-top: 1em;
+}
+
+.policy-container{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#policy{
+    display: flex;
+    width: 5% !important;
+}
+
+#submit {
+    width: 20% !important;
+    height: 30px !important;
+    background: #3e3e3e;
+    color: white;
+    cursor: pointer;
+}
+
+.error{
+    color: red !important;
+}
